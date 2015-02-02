@@ -4,9 +4,20 @@ body {
 	background-size: cover;
 	color: #262626;
 	font-family: Helvetica;
+	text-indent: 4.0em;
 }
 
 h1 {
+	font-weight: lighter;
+	font-size: 55px;
+	text-indent: 11.0em;
+}
+
+p {
+	text-indent: 38.0em;
+}
+
+#portfolio {
 	font-weight: bold;
 }
 
