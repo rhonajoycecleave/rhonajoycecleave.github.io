@@ -1,7 +1,6 @@
 body {
-	background: url(../images/homepage_image.jpg);
+	background: url(../images/homepage_image.jpg) no-repeat;
 	background-size: cover;
-	background-repeat:no-repeat;
 	color: #262626;
 	font-family: 'Open Sans', sans-serif;
 }
