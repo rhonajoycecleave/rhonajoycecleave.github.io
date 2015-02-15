@@ -14,10 +14,24 @@ p {
 	font-size: 16px;
 	line-height: 1.5em;
 }
+nav {
+	float: right;
+	padding: 0 2em;
+}
 #portfolio {
 	font-weight: bold;
 }
 #splash {
 	margin:1em auto 1em auto;
 	width:450px;
+}
+footer {
+	float: right;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
