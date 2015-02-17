@@ -17,11 +17,17 @@ p {
 nav {
 	padding:1em;
 }
-nav a {
-	display:block;
+nav ul {
+	max-width:75em;
+	margin:auto;
+}
+nav li {
 	float:left;
 	text-align:center;
 	width:20%;
+}
+nav a {
+	padding:2em;
 }
 #portfolio {
 	font-weight: 700;
