@@ -1,3 +1,4 @@
+*{margin:0;padding:0;box-sizing:border-box; border:2px solid #000;}
 body {
 	background: url(../images/homepage_image.jpg) no-repeat;
 	background-size: cover;
@@ -5,7 +6,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 h1 {
-	font-weight: lighter;
+	font-weight: 300;
 	font-size: 58px;
 	line-height: 1.15em;
 }
@@ -14,14 +15,10 @@ p {
 	line-height: 1.5em;
 }
 nav {
-	display: block;
-	float: left;
 	padding: 0 10px;
-	width: 200px;
-	border: 10px black solid;
 }
 #portfolio {
-	font-weight: bold;
+	font-weight: 700;
 }
 #splash {
 	margin:1em auto 1em auto;
