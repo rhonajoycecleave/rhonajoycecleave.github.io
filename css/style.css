@@ -15,7 +15,13 @@ p {
 	line-height: 1.5em;
 }
 nav {
-	padding: 0 10px;
+	padding:1em;
+}
+nav a {
+	display:block;
+	float:left;
+	text-align:center;
+	width:20%;
 }
 #portfolio {
 	font-weight: 700;
