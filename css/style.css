@@ -2,17 +2,19 @@
 body {
 	color: #262626;
 	font-family: 'Open Sans', sans-serif;
-	background-size:cover;
 	min-height:100vh;
 }
 #homebackgroundimage {
 	background: url(../images/homepage_image.jpg) no-repeat bottom;
+	background-size:cover;
 }
 #aboutbackgroundimage {
 	background: url(../images/about_invite_2.jpg) no-repeat bottom;
+	background-size:cover;
 }
 #contactbackgroundimage {
 	background: url(../images/contact_image_1.jpg) no-repeat bottom;
+	background-size:cover;
 }
 h1 {
 	font-weight: 300;
