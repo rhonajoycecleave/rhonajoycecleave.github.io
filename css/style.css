@@ -79,9 +79,11 @@ a {
 li {
 	float: left;
 	text-align: center;
+	width: 33.33%;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+}
+li img {
 	width: 100%;
-	padding: 2em 0em 2em 0em;
-	border: 2px solid black;
 }
 
 footer {
