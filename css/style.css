@@ -35,6 +35,12 @@ h3 {
 	text-transform: uppercase;
 	color: #00A79D;
 }
+h4 {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1.15em;
+	margin: 1.5em 0em 1.5em 0em;;
+}
 p {
 	font-size: 16px;
 	line-height: 1.5em;
@@ -59,7 +65,7 @@ a {
 	color: #00A79D;
 }
 
-#portfolio {
+#portfoliotext {
 	font-weight: 700;
 }
 #splash {
@@ -76,14 +82,43 @@ a {
 	padding: 1.5em;
 	opacity: 0.8;
 }
-li {
-	float: left;
-	text-align: center;
-	width: 33.33%;
-	padding: 1.5em 1.5em 1.5em 1.5em;
+#portfolio>div {
+	float:left;
+	line-height:0;
+	overflow:hidden;
+	padding:.1em;
+	position:relative;
+	width:33.33%;
 }
-li img {
-	width: 100%;
+#portfolio img {
+	width:100%;
+}
+.overlay {
+	background-color:rgba(0,150,136,0);
+	color:rgba(255,255,255,0);
+	padding:2em;
+	position:absolute;
+	top:25%;
+	left:0;
+	right:0;
+}
+#portfolio div:hover .overlay {
+	background-color:rgba(0,150,136,1);
+	color:rgba(255,255,255,1);
+}
+.overlay {
+	background-color:rgba(0,150,136,0);
+	color:rgba(255,255,255,0);
+	padding:2em;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+#portfolio div:hover .overlay {
+	background-color:rgba(0,150,136,.8);
+	color:rgba(255,255,255,.8);
 }
 
 footer {
