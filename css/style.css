@@ -7,16 +7,19 @@ body {
 	min-height:100vh;
 }
 #homebackgroundimage {
-	background: url(../images/homepage_image.jpg) no-repeat bottom;
+	background: url(../images/homepage_image.jpg) no-repeat left bottom;
 	background-size:cover;
+	height: 100%;
 }
 #aboutbackgroundimage {
-	background: url(../images/about_invite_2.jpg) no-repeat bottom;
+	background: url(../images/about_invite_2.jpg) no-repeat left bottom;
 	background-size:cover;
+	height: 100%;
 }
 #contactbackgroundimage {
-	background: url(../images/contact_image_1.jpg) no-repeat bottom;
+	background: url(../images/contact_image_1.jpg) no-repeat left bottom;
 	background-size:cover;
+	height: 100%;
 }
 h1 {
 	font-weight: 300;
@@ -25,25 +28,11 @@ h1 {
 }
 h2 {
 	font-weight: 400;
-	font-size: 24px;
-	line-height: 3em;
-	text-transform: uppercase;
-	color: #00A79D;
-}
-h3 {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 2em;
-	text-transform: uppercase;
-	color: #00A79D;
-}
-h4 {
-	font-weight: 400;
 	font-size: 25px;
 	line-height: 1.15em;
 	text-align: center;
 }
-h5 {
+h3 {
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 1.15em;
@@ -116,17 +105,18 @@ a {
 	background-color:rgba(0,150,136,.8);
 	color:rgba(255,255,255,.8);
 }
-.worktext {
+#worktext {
 	float:left;
 	width:480px;
 	padding: 1.5em;
 	margin: 2em 0em 0em 2em;
 }
-.workimages img {
+#workimages>div {
 	float:right;
-	padding: 2em;
+	padding: 1.5em;
+	width: 55%;
+	margin: 0.5em 0em 0em 0.5em;
 }
-
 footer {
 	text-align: right;
 	position: absolute;
