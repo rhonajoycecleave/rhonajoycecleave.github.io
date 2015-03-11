@@ -1,4 +1,6 @@
-*{margin:0;padding:0;box-sizing:border-box;}
+*{margin:0;padding:0;box-sizing:border-box;
+	transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);}
 body {
 	color: #262626;
 	font-family: 'Open Sans', sans-serif;
@@ -37,9 +39,16 @@ h3 {
 }
 h4 {
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 1.15em;
-	margin: 1.5em 0em 1.5em 0em;;
+	text-align: center;
+}
+h5 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.15em;
+	text-align: left;
+	color: #00A79D;
 }
 p {
 	font-size: 16px;
@@ -86,7 +95,7 @@ a {
 	float:left;
 	line-height:0;
 	overflow:hidden;
-	padding:.1em;
+	padding:1em;
 	position:relative;
 	width:33.33%;
 }
@@ -98,27 +107,24 @@ a {
 	color:rgba(255,255,255,0);
 	padding:2em;
 	position:absolute;
-	top:25%;
+	top:15%;
 	left:0;
 	right:0;
-}
-#portfolio div:hover .overlay {
-	background-color:rgba(0,150,136,1);
-	color:rgba(255,255,255,1);
-}
-.overlay {
-	background-color:rgba(0,150,136,0);
-	color:rgba(255,255,255,0);
-	padding:2em;
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
+	margin: 1em;
 }
 #portfolio div:hover .overlay {
 	background-color:rgba(0,150,136,.8);
 	color:rgba(255,255,255,.8);
+}
+.worktext {
+	float:left;
+	width:480px;
+	padding: 1.5em;
+	margin: 2em 0em 0em 2em;
+}
+.workimages img {
+	float:right;
+	padding: 2em;
 }
 
 footer {
