@@ -130,3 +130,21 @@ footer {
    height: 0; 
    clear: both;
 }
+@media only screen and (max-width: 900px) {
+	#portfolio>div {
+	width:50%;
+	}
+}
+@media only screen and (max-width: 640px) {
+	#portfolio>div {
+	float: none;
+	width:90%;
+	margin: 1.5em;
+	}
+}
+@media only screen and (max-width: 1275px) {
+	#workimages>div {
+	float: none;
+	width:60%;
+	}
+}
