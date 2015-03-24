@@ -115,6 +115,45 @@ a {
 	padding: 1.5em;
 	width: 55%;
 }
+.socialmedia {
+	padding: 1em;
+}
+a.cta1 {
+	border: .3em #00A79D solid;
+	border-radius:.2em;
+	display: inline-block;
+	color: #00A79D;
+	font-weight: 400;
+	padding: 1em;
+	margin: 2em auto;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a.cta1:hover {
+	border: .3em #000 solid;
+}
+a.cta2 {
+	border: .3em #00A79D solid;
+	border-radius:.2em;
+	display: inline-block;
+	color: #00A79D;
+	font-weight: 400;
+	padding: 1em;
+	margin: 2em auto;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a.cta2:hover {
+	border: .3em #000 solid;
+}
+a.cta3 {
+	display: none;
+}
+a.cta3:hover {
+	display: none;
+}
 footer {
 	text-align: right;
 	position: absolute;
@@ -128,6 +167,7 @@ footer {
    height: 0; 
    clear: both;
 }
+
 @media only screen and (max-width: 900px) {
 	#portfolio>div {
 	width:50%;
@@ -174,7 +214,69 @@ footer {
 	nav a {
 	padding:1.5em;
 	}
+	h1 {
+	font-weight: 300;
+	font-size: 45px;
+	line-height: 1.15em;
+	}
 	h2 {
 	font-size: 18px;
+	}
+	#homebackgroundimage {
+	background: none;	
+	}
+	#splash {
+	margin:2em auto 2em auto;
+	width:380px;
+	padding: 1.5em;
+	}
+	#aboutbackgroundimage {
+	background: none;
+	}
+	#contactbackgroundimage {
+	background: none;
+	}
+	#about {
+	margin:2em auto 2em auto;
+	width:380px;
+	padding: 1.5em;
+	}
+	a.cta1 {
+	border: .3em #00A79D solid;
+	border-radius:.2em;
+	display: block;
+	color: #00A79D;
+	font-weight: 400;
+	padding: 1em;
+	margin: 2em auto;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	a.cta1:hover {
+	border: .3em #000 solid;
+	}
+	a.cta3 {
+	border: .3em #00A79D solid;
+	border-radius:.2em;
+	display: block;
+	color: #00A79D;
+	font-weight: 400;
+	padding: 1em;
+	margin: 2em auto;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	a.cta3:hover {
+	border: .3em #000 solid;
+	}
+	.socialmedia {
+	display: none;
+	}
+	footer {
+	text-align: center;
+	position: relative;
+	left: .5em;
 	}
 }
