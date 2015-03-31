@@ -69,14 +69,14 @@ a {
 	margin:5em auto 5em auto;
 	width:425px;
 	background-color: #fff;
-	padding: 1.5em;
+	padding: 1.5em 1.5em 1.5em 2em;
 	opacity: 0.8;
 }
 #about {
 	margin:5em auto 5em auto;
 	width:480px;
 	background-color: #fff;
-	padding: 1.5em;
+	padding: 1.5em 1.5em 1.5em 2em;
 	opacity: 0.8;
 }
 #portfolio>div {
@@ -110,6 +110,8 @@ a {
 	float:left;
 	width: 40%;
 	padding: 2em;
+	position: fixed;
+	top: 15%;
 }
 #workimages>div {
 	float:right;
@@ -121,12 +123,12 @@ a {
 }
 .socialmedia {
 	float: left;
+	text-align: center;
 	width: 20%;
-	padding: 2em auto;
+	padding: 1.5em;
 }
 a.cta1 {
 	border-bottom: .4em #00A79D solid;
-	border-radius:.2em;
 	display: inline-block;
 	color: #000;
 	font-weight: 400;
@@ -143,7 +145,6 @@ a.cta1:hover {
 }
 a.cta2 {
 	border-bottom: .4em #00A79D solid;
-	border-radius:.2em;
 	display: inline-block;
 	color: #000;
 	font-weight: 400;
@@ -164,7 +165,7 @@ footer {
 	bottom: 2em;
 	right: 2em;
 	font-size: 4.,px;
-	color: #ccc;
+	color: #444;
 }
 .clearfix:after { 
    content: "."; 
@@ -194,6 +195,7 @@ footer {
 	float:left;
 	width: 400px;
 	padding: 2em;
+	position: relative;
 	}
 }
 @media only screen and (max-width: 640px) {
