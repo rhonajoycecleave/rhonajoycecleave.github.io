@@ -164,7 +164,7 @@ footer {
 	position: absolute;
 	bottom: 2em;
 	right: 2em;
-	font-size: 4.,px;
+	font-size: .5em;
 	color: #444;
 }
 .clearfix:after { 
